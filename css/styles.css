@@ -1,0 +1,79 @@
+/* Color Palette
+#0F1115 - BACKGROUND1
+#131B26 - background2 
+#1C1A1E - background3
+#151E1A - background4
+#201D19 - background5
+#EDEDF2 - primary text
+*/
+
+/* 
+Fira Font:
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+Uncial Antiqua font:
+.uncial-antiqua-regular {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #0F1115;
+    color: #EDEDF2;
+    font-family: "Fira Sans", sans-serif;
+}
+
+img {
+    height: 250px;
+}
+h1, h2, h3, h4 {
+    font-family: "Uncial Antiqua", system-ui;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background: #131B26;
+}
+
+footer {
+    background: #201D19;
+}
+
+/* Work Experience
+------------------------------------*/
+
+#work-experience {
+    background: #1C1A1E;
+}
+
+/* Education
+------------------------------------*/
+
+#education {
+    background: #151E1A;
+}
